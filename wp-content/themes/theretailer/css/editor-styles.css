@@ -1,0 +1,55 @@
+/* Main column width */
+.wp-block {
+    max-width: 720px;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: 1080px;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+/* Quotes */
+.wp-block .wp-block-quote p,
+.wp-block .wp-block-pullquote p {
+	font-size: 21px;
+	font-style: normal;
+	line-height: 36px;
+}
+
+.wp-block .wp-block-quote .wp-block-quote__citation,
+.wp-block .wp-block-pullquote .wp-block-pullquote__citation {
+	font-size: 18px;
+}
+
+.wp-block p,
+.wp-block li {
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.components-button {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+ul.wp-block-latest-posts,
+ul.wp-block-archives,
+.wp-block-categories > ul {
+	padding: 0;
+}
+
+ul.wp-block-latest-posts li,
+ul.wp-block-archives li,
+.wp-block-categories li {
+    list-style-type: none;
+}
+
+ul.wp-block-latest-posts a,
+ul.wp-block-archives a,
+.wp-block-categories a {
+	text-decoration: none;
+}
